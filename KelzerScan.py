@@ -29,7 +29,7 @@ else:
 
 
 
-site = input('\033[37mDIGITE O SITE: \033[0m')
+site = input('\033[37mDIGITE O SITE: \n \033[0m')
 portas = [21, 23, 80, 443, 8080, 4040, 4444]
 
 for p in portas:
@@ -37,4 +37,4 @@ for p in portas:
 	c.settimeout(VAR_DEMORA)
 	codigo = c.connect_ex(('{}'.format(site), p))
 	if codigo == 0:
-		print ("A porta ({}) está aberta".format(p))
+		print ("=> Porta ({}) aberta ! ".format(p))

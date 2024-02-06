@@ -1,4 +1,6 @@
 import socket
+import os
+clear = lambda: os.system('clear')
 print ("""\033[1;31m
  _  __    _              _____                 
 | |/ /   | |            / ____|                
@@ -14,16 +16,13 @@ print ("""\033[1;31m
 NET_BOA_RUIM = input('SUA INTERNET É BOA ? [S/N] ')
 
 
-
-
-
-     if NET_BOA_RUIM == "S":
-          VAR_DEMORA = 1
-     elif NET_BOA_RUIM == "N":
-          VAR_DEMORA = 5
-     else:
-          print('\033[31mERA S OU N ! AGORA A DEMORA PRA VERIFICAR SE A PORTA TÁ ABERTA É 6 SEGUNDOS ;-; \033[0m')
-          VAR_DEMORA = 6
+if NET_BOA_RUIM == "S":
+	VAR_DEMORA = 1
+elif NET_BOA_RUIM == "N":
+	VAR_DEMORA = 5
+else:
+		print('\033[31mERA S OU N ! AGORA A DEMORA PRA VERIFICAR SE A PORTA TÁ ABERTA É 6 SEGUNDOS ;-; \033[0m')
+		VAR_DEMORA = 6
 
 
 

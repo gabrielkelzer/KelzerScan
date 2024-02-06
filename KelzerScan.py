@@ -14,7 +14,7 @@ print ("""\033[1;31m
                                                
 """)
 
-NET_BOA_RUIM = input('\033[37mSUA INTERNET É BOA ? [s/n] \n \033[0m ')
+NET_BOA_RUIM = input('\033[37mSUA INTERNET É BOA ? [s/n]  \033[0m ')
 
 
 if NET_BOA_RUIM == "s":
@@ -22,7 +22,7 @@ if NET_BOA_RUIM == "s":
 elif NET_BOA_RUIM == "n":
 	VAR_DEMORA = 5
 else:
-		print('\033[37m \n O programa irá tentar por 6 segundos verificar se as portas estão abertas !!!  ;-; \n \033[0m')
+		print('\033[37mO programa irá tentar por 6 segundos verificar se as portas estão abertas !!!  ;-; \033[0m')
 		VAR_DEMORA = 6
 
 

@@ -1,6 +1,7 @@
 import socket
 import os
 clear = lambda: os.system('clear')
+clear()
 print ("""\033[1;31m
  _  __    _              _____                 
 | |/ /   | |            / ____|                

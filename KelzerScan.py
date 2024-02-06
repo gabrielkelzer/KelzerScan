@@ -13,7 +13,7 @@ print ("""\033[1;31m
                                                
 """)
 
-NET_BOA_RUIM = input('SUA INTERNET É BOA ? [S/N] ')
+NET_BOA_RUIM = input('\033[37mSUA INTERNET É BOA ? [S/N]\033[0m ')
 
 
 if NET_BOA_RUIM == "S":
@@ -21,7 +21,7 @@ if NET_BOA_RUIM == "S":
 elif NET_BOA_RUIM == "N":
 	VAR_DEMORA = 5
 else:
-		print('\033[31mERA S OU N ! AGORA A DEMORA PRA VERIFICAR SE A PORTA TÁ ABERTA É 6 SEGUNDOS ;-; \033[0m')
+		print('\033[37mERA S OU N ! AGORA A DEMORA PRA VERIFICAR SE A PORTA TÁ ABERTA É 6 SEGUNDOS ;-; \033[0m')
 		VAR_DEMORA = 6
 
 
@@ -29,7 +29,7 @@ else:
 
 
 
-site = input('DIGITE O SITE: ')
+site = input('\033[37mDIGITE O SITE: \033[0m')
 portas = [21, 23, 80, 443, 8080, 4040, 4444]
 
 for p in portas:

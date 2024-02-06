@@ -13,15 +13,15 @@ print ("""\033[1;31m
                                                
 """)
 
-NET_BOA_RUIM = input('\033[37mSUA INTERNET É BOA ? [S/N]\033[0m ')
+NET_BOA_RUIM = input('\033[37mSUA INTERNET É BOA ? [s/n] \n\033[0m ')
 
 
-if NET_BOA_RUIM == "S":
+if NET_BOA_RUIM == "s":
 	VAR_DEMORA = 1
-elif NET_BOA_RUIM == "N":
+elif NET_BOA_RUIM == "n:
 	VAR_DEMORA = 5
 else:
-		print('\033[37mERA S OU N ! AGORA A DEMORA PRA VERIFICAR SE A PORTA TÁ ABERTA É 6 SEGUNDOS ;-; \033[0m')
+		print('\033[37mO programa irá tentar por 6 segundos verificar se a porta tá aberta!!!  ;-; \n \033[0m')
 		VAR_DEMORA = 6
 
 

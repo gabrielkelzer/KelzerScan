@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="LINK_DA_IMAGEM_DO_SCRIPT_AQUI" width="100%">
+  <img src="https://github.com/gabrielkelzer/KelzerScan/blob/main/file_000000003dc871f5896e7d1db62b9e53.png" width="100%">
 </p>
 
 <h1 align="center">⚡ KelzerScan V2 ⚡</h1>
